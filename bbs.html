@@ -1,0 +1,79 @@
+<html><head>
+	<title>掲示板</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		.mainContainer{
+			text-align:left;
+			margin-left:20px;
+		}
+		label{
+			wigth:150px;
+			padding-left:100px;
+			
+		}
+		
+		input[type="text"]{
+			wigth:300px;
+			border-radius:5px;
+		}
+		
+		textarea{
+			width:500px;
+			height:200px
+		}
+		
+		input[type="submit"]{
+			border:1px solid #ffffff;
+			background-color:black;
+			border-radius:5px;
+		}
+		
+		.item-area{
+			width:500px;
+			height:auto;
+			margin-bottom:50px;
+		}
+		
+		.item{
+			float:left;
+			width:500px;
+			height:auto;
+			padding-left:100px
+		}
+		
+	</style>
+</head>
+<body>
+
+	<div class="mainContainer">
+		<p class="torikeshi">BBS</p>
+		<span style="font-weigth:bold;font-size:20px;">工事中</span><span>です</span>
+		<p>しばらくお待ちください</p>
+		<img src="image/ojigi_animal_neko.png"><br></br><br></br><br></br>
+		<form>
+		
+			<div class="item-area">
+				<label for="yourName">お名前</label>
+				<div class="item">
+					<input type="text" name="yourName" id="yourName">
+				</div>
+			</div>
+			
+			<div class="item-area">
+				<label for="comment">コメント</label>
+				<div class="item">
+					<textarea name="comment" id="comment"></textarea>
+				</div>
+			</div>
+			
+			<div class="item-area">
+				<div class="item">
+					<input type="submit" valu="送信" class="blink">
+				</div>
+			</div>
+			
+		</form>
+	</div>
+	
+</body>
+</html>
