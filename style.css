@@ -2,7 +2,6 @@
 .base {
   display: flex;
   flex-direction: row;
-  width: 100vw;
   height: 100vh;
 }
 .class1 {
@@ -24,13 +23,12 @@ body{
  }
 
 .mainContainer{
- width:100% - 30px;
+ width:100% - 300px;
  height:auto - 60px;
  margin-top:50px;
  text-align:center;
  align-items:center;
  min-width:calc(100vw - 300px);
- overflow:hidden;
 }
 
 .reminderContainer{

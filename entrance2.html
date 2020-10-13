@@ -1,0 +1,60 @@
+<html><head>
+	<title>裏口</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		.button:hover{
+		  border-color:#FF0000;
+		}
+
+		.button:focus{
+		  outline:none !important;
+		  border-color:#FF0000;
+		}
+		
+		.reminderContainer{
+			align-items:center;
+			text-align:center;
+		}
+		
+		.items{
+			width:500px;
+			height:auto;
+			margin-bottom:20px;
+		}
+		input[type="button"]{
+			width:100px;
+		}
+		
+	</style>
+	<script language="JavaScript">
+	<!--
+		function check()
+		{
+			str = document.login.pass;
+			if (str == "1207") jpURL = "under.html"; else jpURL = "entrance2.html";
+			location.href = jpURL;
+		}
+	// -->
+	</script>
+</head>
+<body>
+
+	<div class="reminderContainer">
+		<form name="login">
+			<div class="items">
+				<label>パスワードを入力してください</label>
+			</div>
+			<div class="items">
+				<input type="password" name="pass" value="" size="4" required>
+			</div>
+			<div class="items">
+				<input type="button" value="入場" onClick="check()">
+			</div>
+			
+				<p style="font-size:small;">ヒント　訓練終了日を数字4桁で入力</p>
+		</form>
+		</div>
+	</div>
+	
+</body>
+</html>
